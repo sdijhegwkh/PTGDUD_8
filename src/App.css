@@ -38,7 +38,6 @@
 
 .recipe-video {
   grid-area: recipe-video;
-  background-color: #ffffcc; /* Màu vàng nhạt */
 }
 
 .editor-pick {
@@ -49,19 +48,6 @@
 .footer {
   grid-area: footer;
   background-color: #ffebcc; /* Màu cam nhạt */
-}
-
-/* Responsive design cho các màn hình lớn hơn */
-@media (min-width: 768px) {
-  .app-grid {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-      "header header"
-      "thumbnail thumbnail"
-      "summer-recipe recipe-video"
-      "editor-pick editor-pick"
-      "footer footer";
-  }
 }
 
 /* Thêm style cho tiêu đề các box để dễ nhìn hơn */

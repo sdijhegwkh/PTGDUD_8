@@ -28,27 +28,22 @@
 
 .thumbnail {
   grid-area: thumbnail;
-  background-color: #ccffcc; 
 }
 
 .summer-recipe {
   grid-area: summer-recipe;
-  background-color: #ccccff; 
 }
 
 .recipe-video {
   grid-area: recipe-video;
-  background-color: #ffffcc; 
 }
 
 .editor-pick {
   grid-area: editor-pick;
-  background-color: #ffccff; 
 }
 
 .footer {
   grid-area: footer;
-  background-color: #ffebcc; 
 }
 
 
@@ -67,11 +62,11 @@
 }
 
 .summer-recipe {
-  height: 200px; /* Chiều cao cố định */
+  height: 450px; 
 }
 
 .recipe-video {
-  height: 250px; 
+  height: 450px; 
 }
 
 .editor-pick {
@@ -80,5 +75,5 @@
 }
 
 .footer {
-  height: 60px; 
+  height: 350px; 
 }

@@ -1,0 +1,98 @@
+.footer {
+    background-color: #111827;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .footer-top {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .footer-section h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #d1d5db;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section a {
+    color: #f3f4f6;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    color: #f472b6;
+  }
+  
+  .email-form {
+    display: flex;
+    margin-top: 12px;
+  }
+  
+  .email-form input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px 0 0 6px;
+    border: none;
+    outline: none;
+  }
+  
+  .email-form button {
+    padding: 10px 16px;
+    background-color: #f472b6;
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #374151;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #9ca3af;
+  }
+  
+  .footer-logo {
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #ffffff;
+  }
+  
+  .footer-links a {
+    color: #9ca3af;
+    text-decoration: none;
+    margin: 0 6px;
+  }
+  
+  .footer-links a:hover {
+    color: #f472b6;
+  }
+  

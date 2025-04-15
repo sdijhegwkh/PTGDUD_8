@@ -1,0 +1,102 @@
+.editor-pick-container {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .editor-title {
+    font-size: 32px;
+    color: #f43f5e;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .editor-subtitle {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 30px;
+  }
+  
+  .editor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 24px;
+    justify-content: center;
+  }
+  
+  .editor-card {
+    display: flex;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 14px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    padding: 16px;
+    align-items: flex-start;
+  }
+  
+  .editor-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-right: 16px;
+  }
+  
+  .editor-info {
+    text-align: left;
+    flex: 1;
+  }
+  
+  .editor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .editor-header h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #111;
+    margin: 0;
+  }
+  
+  .editor-bookmark-btn {
+    background: none;
+    border: 1px solid #f43f5e;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    color: #f43f5e;
+    cursor: pointer;
+  }
+  
+  .editor-time {
+    font-size: 13px;
+    color: #888;
+    display: block;
+    margin: 6px 0;
+  }
+  
+  .editor-author {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 6px;
+  }
+  
+  .author-img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .editor-desc {
+    font-size: 13px;
+    color: #444;
+    line-height: 1.4;
+  }
+  
